@@ -1,4 +1,6 @@
-# Challenge 08 GoStack - GoMarketPlace
+<h1 align="center"> Challenge 08 GoStack - GoMarketPlace </h1>
+
+<div align="center">
 
 An app made with React Native and Typescript using routes, Async Storage and context API concepts.
 
@@ -7,17 +9,9 @@ An app made with React Native and Typescript using routes, Async Storage and con
 ![GitHub repo size](https://img.shields.io/github/repo-size/cesarramos95/gostack-challenge-gomarketplace)
 [![GitHub license](https://img.shields.io/github/license/cesarramos95/gostack-challenge-gomarketplace?label=license)](https://github.com/cesarramos95/gostack-challenge-gomarketplace/blob/master/LICENSE)
 <img src="https://img.shields.io/static/v1?label=made by&message=César&color=blueviolet&style=<STYLE>&logo=<LOGO>">
-
-
-## 💻 Preview
-
-<br>
-<div align="center">
-  <img src="./screenshot/Dashboard.jpg" alt="Dashboard" width="200px;">
-  <img src="./screenshot/CartScreen.jpg" alt="Cart" width="200px;">
 </div>
 
-<div id="technologies">
+<br/>
 
 <p align="center">
  <a href="#technologies">Technologies</a> •
@@ -26,18 +20,37 @@ An app made with React Native and Typescript using routes, Async Storage and con
  <a href="#autor">Autor</a>
 </p>
 
----
+<br/>
+
+## 💻 Preview
+<div align="center">
+  <img src="./screenshot/Dashboard.jpg" alt="Dashboard" width="200px;">
+  <img src="./screenshot/CartScreen.jpg" alt="Cart" width="200px;">
+</div>
+
+<br/>
+
+## 📎 Features
+- [x] List products
+- [x] Add products to the cart
+- [x] Remove products from the cart
+
+<br>
+
+<div id="technologies">
 
 ## 🛠 Technologies
 The following tools were used to solve this challenge:
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://github.com/axios/axios)
+- [Jest](https://jestjs.io/)
 
 </div>
 
-<div id="install">
+<br>
 
----
+<div id="run">
 
 ## ℹ How to run
 
