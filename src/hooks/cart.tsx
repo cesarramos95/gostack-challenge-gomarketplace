@@ -85,17 +85,17 @@ const CartProvider: React.FC = ({ children }) => {
 
   const decrement = useCallback(
     async id => {
-      const incrementProducts = products.map(product =>
+      const decrementProducts = products.map(product =>
         product.id === id
           ? { ...product, quantity: product.quantity - 1 }
           : product,
       );
 
-      setProducts(incrementProducts);
+      setProducts(decrementProducts);
 
       await AsyncStorage.setItem(
         '@GoMarketPlace:products',
-        JSON.stringify(incrementProducts),
+        JSON.stringify(decrementProducts),
       );
     },
     [products],
